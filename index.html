@@ -1,11 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NerdRadioativo | Loja Geek</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>my website</h1>
+  <!-- Header fixo: position: fixed -->
+  <header class="header">
+    <a class="logo" href="#">☢ Nerd<span>Radioativo</span></a>
+    <nav class="menu">
+      <a href="#inicio">Início</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#sobre">Sobre</a>
+    </nav>
+    <a class="cart" href="#produtos">🛒 Carrinho <span>0</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <p class="eyebrow">UNIVERSO GEEK</p>
+      <h1>Vista seu lado nerd.</h1>
+      <p>Camisetas, acessórios e itens para verdadeiros fãs.</p>
+      <a class="hero-button" href="#produtos">Explorar produtos</a>
+    </section>
+
+    <section class="products-section" id="produtos">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">NOSSA COLEÇÃO</p>
+          <h2>Produtos em destaque</h2>
+        </div>
+        <span class="product-total">12 produtos</span>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <div class="product-image image-1"><span class="image-icon">🍥</span><span class="tag">MAIS VENDIDO</span></div>
+          <div class="card-content"><p class="category">ANIME</p><h3>Camiseta Ninja</h3><p class="description">Estampa inspirada no mundo ninja.</p><div class="price-row"><strong>R$ 79,90</strong><span>★★★★★</span></div><a class="add-button" href="#produtos">Ver produto</a></div>
+        </article>
+        <article class="card">
+          <div class="product-image image-2"><span class="image-icon">🐉</span><span class="tag sale">-20%</span></div>
+          <div class="card-content"><p class="category">ANIME</p><h3>Camiseta Saiyajin</h3><p class="description">Poder e estilo para o seu dia.</p><div class="price-row"><strong>R$ 69,90</strong><span>★★★★★</span></div><a class="add-button" href="#produtos">Ver produto</a></div>
+        </article>
+        <article class="card">
+          <div class="product-image image-3"><span class="image-icon">🕷️</span><span class="tag">NOVIDADE</span></div>
+          <div class="card-content"><p class="category">HERÓIS</p><h3>Camiseta Aranha</h3><p class="description">Um clássico dos quadrinhos.</p><div class="price-row"><strong>R$ 74,90</strong><span>★★★★★</span></div><a class="add-button" href="#produtos">Ver produto</a></div>
+        </article>
+        <article class="card">
+          <div class="product-image image-4"><span class="image-icon">⚡</span></div>
+          <div class="card-content"><p class="category">GAMES</p><h3>Camiseta Gamer</h3><p class="description">Feita para quem vive jogando.</p><div class="price-row"><strong>R$ 59,90</strong><span>★★★★☆</span></div><a class="add-button" href="#produtos">Ver produto</a></div>
+        </article>
+        <article class="card">
+          <div class="product-image image-5"><span class="image-icon">☠️</span><span class="tag sale">-15%</span></div>
+          <div class="card-content"><p class="category">ANIME</p><h3>Camiseta Pirata</h3><p class="description">A aventura está esperando.</p><div class="price-row"><strong>R$ 67,90</strong><span>★★★★★</span></div><a class="add-button" href="#produtos">Ver produto</a></div>
+        </article>
+        <article class="card">
+          <div class="product-image image-6"><span class="image-icon">🦇</span></div>
+          <div class="card-content"><p class="category">HERÓIS</p><h3>Camiseta Noturna</h3><p class="description">Visual discreto e poderoso.</p><div class="price-row"><strong>R$ 79,90</strong><span>★★★★☆</span></div><a class="add-button" href="#produtos">Ver produto</a></div>
+        </article>
+        <article class="card">
+          <div class="product-image image-7"><span class="image-icon">👾</span><span class="tag">POPULAR</span></div>
+          <div class="card-content"><p class="category">GAMES</p><h3>Camiseta Pixel</h3><p class="description">Nostalgia direto dos games.</p><div class="price-row"><strong>R$ 64,90</strong><span>★★★★★</span></div><a class="add-button" href="#produtos">Ver produto</a></div>
+        </article>
+        <article class="card">
+          <div class="product-image image-8"><span class="image-icon">🌌</span></div>
+          <div class="card-content"><p class="category">SCI-FI</p><h3>Camiseta Galáxia</h3><p class="description">Explore outro universo.</p><div class="price-row"><strong>R$ 72,90</strong><span>★★★★☆</span></div><a class="add-button" href="#produtos">Ver produto</a></div>
+        </article>
+        <article class="card">
+          <div class="product-image image-9"><span class="image-icon">🗡️</span><span class="tag sale">-10%</span></div>
+          <div class="card-content"><p class="category">FANTASIA</p><h3>Camiseta Guerreiro</h3><p class="description">Para quem nasceu para a aventura.</p><div class="price-row"><strong>R$ 69,90</strong><span>★★★★★</span></div><a class="add-button" href="#produtos">Ver produto</a></div>
+        </article>
+        <article class="card">
+          <div class="product-image image-10"><span class="image-icon">🧪</span></div>
+          <div class="card-content"><p class="category">SÉRIES</p><h3>Camiseta Cientista</h3><p class="description">Ciência, humor e cultura pop.</p><div class="price-row"><strong>R$ 74,90</strong><span>★★★★☆</span></div><a class="add-button" href="#produtos">Ver produto</a></div>
+        </article>
+        <article class="card">
+          <div class="product-image image-11"><span class="image-icon">👑</span><span class="tag">EXCLUSIVO</span></div>
+          <div class="card-content"><p class="category">ANIME</p><h3>Camiseta Rei</h3><p class="description">Uma estampa para se destacar.</p><div class="price-row"><strong>R$ 84,90</strong><span>★★★★★</span></div><a class="add-button" href="#produtos">Ver produto</a></div>
+        </article>
+        <article class="card">
+          <div class="product-image image-12"><span class="image-icon">🚀</span></div>
+          <div class="card-content"><p class="category">SCI-FI</p><h3>Camiseta Espacial</h3><p class="description">Seu estilo em outra dimensão.</p><div class="price-row"><strong>R$ 69,90</strong><span>★★★★☆</span></div><a class="add-button" href="#produtos">Ver produto</a></div>
+        </article>
+      </div>
+    </section>
+    <section class="about" id="sobre"><h2>Feito para quem é geek de verdade.</h2><p>Encontre sua próxima estampa favorita na NerdRadioativo.</p></section>
+  </main>
+
+  <footer>© 2026 NerdRadioativo — Loja Geek</footer>
 </body>
 </html>
